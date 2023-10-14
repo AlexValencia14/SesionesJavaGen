@@ -1,0 +1,46 @@
+NOTAS DE CLASE DATOSPRIIMTIVOS.JAVA
+
+	Tipos de datos:
+		byte --> 1 byte, min -128 max 127
+		short --> 2 byte, min -32768 max 32,767
+		int --> 4 byte, min -2,147,483,648 max 2,147,483,647
+		long --> 8 bytes, min -9,223,372,036,854,775,808 max 9,223,372,036,854,775,807
+
+		float --> 4 bytes, min 1.4 e-45 max 3.4 e+38
+		double --> 8 bytes min 4.9 e-324 max 1.8 e+308
+
+	Tipo de casteo:
+		Automatico --> de un dato más pequeño a un dato mas grande (ejemplo: 
+			short edad=25;
+			int valorEdad=edad;)
+		Manual --> de un dato mas grande a uno dato mas pequeño (ejemplo:
+			float myFloat=1.99f;
+			int myNewFloat=(int) myFloat;)
+
+
+
+NOTAS DE CLASE DATOS ESTRUCTURADOS.JAVA
+
+	Tipos de datos estructurados:
+		String
+		Arrays
+		Creados por el usuario
+
+	Metodos para String
+		texto.length() --> longitud de una cadena de caracteres
+		texto.toUpperCase() --> para convertir a Mayusculas
+		texto.toLowerCase() --> para convertir a Minusculas
+		texto.indexOf("h") --> indice de la primera aparicion de "h"
+
+	Imprimir tipo de datos:
+		para String --> dato.getClass().getSimpleName()
+		int dato2 = Integer.parseInt(dato);
+		para int --> ((Object)dato2).getClass().getSimpleName()
+
+	Arrays
+		String[] cars={"Volkswagen", "Mazda", "Kia","Ford"};
+	
+	Tipos de varibles:
+		dinámicas --> el valor puede cambiar
+		constantes o finales --> final int SALARIO=15000;
+		literales --> ejemplo: pi 
