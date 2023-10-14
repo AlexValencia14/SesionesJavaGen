@@ -1,0 +1,10 @@
+NOTAS DE CLASE 
+
+	ciclos
+		while --> mientras
+		do while --> hacer mientras
+		for --> para
+
+	Sentencias utilizadas en loops:
+		break --> se sale del loop una vez cumplida una condición
+		continue --> se salta la iteración en la que se cumple una condición, pero sigue en el loop
