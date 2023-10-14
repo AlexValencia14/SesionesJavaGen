@@ -1,0 +1,6 @@
+NOTAS DE CLASE OPERADORESLOGICOS.JAVA
+
+	Tipo de operadores:
+		aritmeticos --> +, -, *, /, %
+		lógicos --> AND (&&), OR (||), NOT (!)
+		relacionales --> =, +=. -=, *=, /=, <, >, <=, >=, ==, !=
