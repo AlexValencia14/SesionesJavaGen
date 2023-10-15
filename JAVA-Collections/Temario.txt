@@ -1,0 +1,32 @@
+NOTAS DE CLASE COLLECTIONS.JAVA
+
+	Tipos de colecciones:
+		arrays --> tienen un indice
+		arraylist --> el tamaño se puede aumentar
+		set --> conjunto, no tienen orden
+		map --> almacena Llave y Valor (key, value)
+
+	Arrays
+		String [] arreglo = new String[]{"dato1", "dato2", "dato3"};
+	
+
+		forEach:
+			for( String dato : arreglo){
+				codigo
+			}
+
+	ArrayList
+		List <String> listaArreglo = new ArrayList <>();
+		listaArreglo.add("dato4"); --> agregar datos
+		String datoAsignado = listaArreglo.get(0); --> obtener el dato
+		listaArreglo.remove(0); --> eliminar el dato
+
+	Set
+		Set <String> conjunto = new HashSet<>();
+		conjunto.add("dato5"); --> agregar datos
+		conjunto.contains("dato5") --> contiene el dato5? true
+		
+	Map
+		Map <String, String> mapa = new HashMap<>();
+		mapa.put("dato6","dato6.1"); --> agregar datos
+		String datoAsignado = mapa.get("dato6"); --> obtener el dato
