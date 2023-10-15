@@ -1,0 +1,63 @@
+NOTAS DE CLASE
+	
+Estructura de los archivos
+
+	Persona
+		Usuario
+		Paciente
+		Dentista
+		AsistenteDental
+
+	Test
+		Test
+		TestAsistenteDental
+		TestUsuario
+		
+USUARIO
+	modificadores de acceso
+		public --> para el mundo
+		protected --> hasta subclass
+		no modifier --> hasta package
+		private --> class
+
+	getter y setter
+		getter --> obtener informacion
+			public String getDatoPrivado () {
+				return datoPrivado;
+			}
+		setter --> cambiar el dato
+			public void setDatoPrivado (String nuevoDato) {
+				if (nuevoDato != datoPrivado){
+					datoPrivado = nuevoDato;
+				}
+			}
+
+PACIENTE
+	Sobre carga (OverLoad) --> mismo nombre del constructor pero con diferentes atributos
+		ejemplo: metodoX (String atributo1, atributo2, atributo3) {
+				this.atributo1 = atributo1;
+				this.atributo2 = atributo2;
+				this.atributo3 = atributo3;
+			}
+			metodoX (String atributo1, atributo3)
+				this.atributo1 = atributo1;
+				this.atributo3 = atributo3;
+			}
+	Sobre escritura (Override) --> mismo nombre del metodo pero diferente codigo dentro de él
+
+DENTISTA
+	Herencia (extends) --> public class Dentista extends Persona, en el constructor se coloca super(atributo1, atributo2,...)
+
+ASISTENTEDENTAL
+	getter y setter
+	
+TEST
+	En test se instancio Persona, Dentista, Paciente con campos obligatorios y opcionales
+	Se utilizaron las colecciones
+
+TESTASISTENTEDENTAL
+	Se instancio AsistenteDental
+
+TESTUSUARIO
+	Se instacio Usuario
+	Se cambio la contraseña accediendo con setter
