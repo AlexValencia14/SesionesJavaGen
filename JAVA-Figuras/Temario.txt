@@ -1,0 +1,32 @@
+NOTAS DE CLASE
+
+Estructura de archivos:
+	Figura
+		Circulo
+		Rectangulo
+	TestFiguras
+
+	Calculable
+		Esfera
+
+FIGURA (clase abstracta, palabra reservada abstract)
+	Se define metodos abstractos --> no tienen cuerpo (public abstract double calcularArea();)
+
+CIRCULO
+	Se hereda la clase figura (extends)
+	Se utiliza el metodo abstracto	(override)
+
+RECTANGULO
+	Se hereda la clase figura (extends)
+	Se utiliza el metodo abstracto	(override)
+
+TESTFIGURAS
+	Se instancio el Circulo y Rectangulo
+
+CALCULABLE (interface, palabra reservada interface)
+	definir metodos (double calcularArea();)
+
+ESFERA
+	Se implementa (implements) la interface calculable
+	Se utilizan los metodos (override)
+
