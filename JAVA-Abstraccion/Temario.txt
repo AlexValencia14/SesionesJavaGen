@@ -1,0 +1,5 @@
+NOTAS DE CLASE PERRO.JAVA
+
+	instanciar objetos
+		sin polimorfismo --> Animal Generico= new Animal();
+		con polimorfismo --> Animal Chilaquil= new Perro();
